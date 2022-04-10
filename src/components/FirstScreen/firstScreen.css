@@ -1,0 +1,52 @@
+.firstScreen{
+    padding: 184px 0 200px;
+    background: url("./bg.png") center/cover no-repeat;
+}
+.firstScreen__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 60px;
+    /* identical to box height, or 102% */
+
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 107px;
+}
+
+.firstScreen__btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.firstScreen__btn {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 11px 30px 13px 30px;
+    border-radius: 5px;
+    border:1px solid #FFFFFF ;
+    background: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.firstScreen__btn:hover{
+    background: #69B9FF;
+    transition: 0.2s;
+    border:1px solid #69B9FF;
+}
